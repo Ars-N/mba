@@ -1,0 +1,10 @@
+.page-title{
+  font-family: "Styrene A Web", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  @media (max-width: 1200px) {
+    font-size: 28px;
+    font-weight: 500;
+  }
+}

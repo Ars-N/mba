@@ -1,0 +1,23 @@
+@import "src/settings";
+
+.module {
+  width: fit-content;
+  margin: 30px 0;
+}
+
+
+.program_list {
+  width: 100%;
+  max-width: 500px;
+
+  color: #FF3535;
+  font-size: 16px;
+  font-weight: 300;
+  @media (max-width: 1200px) {
+    font-size: 15px;
+  }
+}
+
+.program_listItem{
+  color: $color-black;
+}

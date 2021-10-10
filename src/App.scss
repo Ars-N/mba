@@ -1,0 +1,17 @@
+
+.App {
+  font-family: "Styrene A Web", sans-serif;
+  line-height: 130%;
+
+  max-width: 1440px;
+  width: 100%;
+  padding: 70px 77px 170px;
+  margin: 0 auto;
+
+  @media(max-width: 1200px) {
+    padding: 28px 15px 46px;
+  }
+}
+h2{
+  text-align: center;
+}
